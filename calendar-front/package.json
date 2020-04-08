@@ -1,0 +1,63 @@
+{
+	"name": "calendar-front",
+	"version": "4.3.2",
+	"private": false,
+	"description": "",
+	"author": "youngkaneda",
+	"scripts": {
+		"serve": "vue-cli-service serve",
+		"build": "vue-cli-service build"
+	},
+	"dependencies": {
+		"babel-eslint": "^10.0.3",
+		"core-js": "^3.3.2",
+		"moment": "^2.24.0",
+		"moment-timezone": "^0.5.28",
+		"v-mask": "^2.1.0",
+		"vue": "^2.6.10",
+		"vue-simple-calendar": "^4.3.2",
+		"vue-toast-notification": "^0.2.0"
+	},
+	"devDependencies": {
+		"@vue/cli-plugin-babel": "^4.0.5",
+		"@vue/cli-plugin-eslint": "^4.0.5",
+		"@vue/cli-service": "^4.0.5",
+		"@vue/eslint-config-prettier": "^5.1.0",
+		"babel-eslint": "^10.0.3",
+		"eslint": "^5.16.0",
+		"eslint-config-tabsanity": "^1.0.22",
+		"eslint-plugin-prettier": "^3.1.1",
+		"eslint-plugin-vue": "^5.0.0",
+		"node-sass": "^4.13.0",
+		"sass-loader": "^7.3.1",
+		"vue-template-compiler": "^2.6.10"
+	},
+	"eslintConfig": {
+		"extends": [
+			"tabsanity"
+		]
+	},
+	"prettier": {
+		"useTabs": true,
+		"semi": false,
+		"singleQuote": false,
+		"bracketSpacing": true,
+		"trailingComma": "es5"
+	},
+	"postcss": {
+		"plugins": {
+			"autoprefixer": {}
+		}
+	},
+	"browserslist": [
+		"> 1%",
+		"ie >= 11"
+	],
+	"license": "MIT",
+	"stylelint": {
+		"extends": "stylelint-config-standard",
+		"rules": {
+			"indentation": "tab"
+		}
+	}
+}

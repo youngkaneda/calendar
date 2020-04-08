@@ -1,0 +1,10 @@
+#java
+calendar-service/target
+#IntelliJ
+calendar-service/.idea
+calendar-service/*.iml
+#js
+calendar-front/build
+calendar-front/node_modules
+#vscode
+calendar-front/.vscode
